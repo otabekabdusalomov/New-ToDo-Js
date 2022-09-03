@@ -12,27 +12,46 @@
     
     
    <div class="container w-50">
-    <form>
+    <form id="formone">
         <div class="mb-3">
             <label for="exampleInputFirs" class="form-label">Firs name</label>
-            <input type="text" class="form-control" id="exampleInputFirs" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <input type="text" class="form-control" id="exampleInputFirs">
         </div> 
         
         <div class="mb-3">
             <label for="exampleInputAge" class="form-label">Age</label>
-            <input type="text" class="form-control" id="exampleInputAge" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <input type="text" class="form-control" id="exampleInputAge">
         </div>
         
         <div class="mb-3">
             <label for="exampleInputCountry" class="form-label">Country</label>
-            <input type="text" class="form-control" id="exampleInputCountry" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <input type="text" class="form-control" id="exampleInputCountry">
         </div>
         
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+
+    <hr>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Age</th>
+            <th scope="col">Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" id="id"></th>
+            <td id="firstName"></td>
+            <td id="age"></td>
+            <td id="country"></td>
+          </tr>
+          <tr>
+        </tbody>
+      </table>
    </div>
     
     
